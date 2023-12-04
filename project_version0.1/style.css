@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to right, #101010, #2b2b2b);
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+h1,h2,h3,h4,h5{
+    color: #C13EFF;
+}
+
+/* .ts_main{
+    
+} */
+
+.ts_bg-Black{
+    background-color: #0a0a0a;
+}
+
+.active{
+    color: #FF914D!important;
+}
+
+.ts_color-purple-menu-footer{
+    color: #C13EFF!important;
+}
+
+/* основні кольори для тексту: */
+.ts_color-orange{
+    color: #FF914D;
+}
+
+.ts_color-blue{
+    color: #5CE1E6;
+}
+
+.ts_color-purple{
+    color: #C13EFF;
+}
+/* основні кольори для тексту. */
+
+#ts_img-up{
+    position: relative;
+    height: 0;
+    flex:1;
+}
+
+.ts_bg-image {
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    z-index: -1; 
+    user-select: none; 
+    top:0;
+}
+
+#ts-img-down{
+    position: relative;
+    height: 0;
+    flex:1;
+}
+
+.ts_footer-image {
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    z-index: -1; 
+    user-select: none; 
+    bottom: 0;
+}
+
+footer {
+    background-color: #0a0a0a;
+    position: relative;
+    top: 0;
+    z-index: 0;
+    margin-top: auto;
+}
+
+footer > .mt-4{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
